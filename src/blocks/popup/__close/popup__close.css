@@ -4,4 +4,8 @@
     position: absolute;
     top: 21px;
     right: 21px;
+    background-image: url('../../../images/Close.png');
+    object-fit: contain;
+    background-position: center;
+    background-repeat: no-repeat;
 }
