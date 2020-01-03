@@ -1,0 +1,9 @@
+.comment__text {
+    width: 184px;
+    min-height: 15px;
+    color: #000000;
+    font-size: 13px;
+    line-height: 15px;
+    font-family: Roboto;
+    font-weight: normal;
+}
