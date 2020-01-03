@@ -1,0 +1,19 @@
+@font-face {
+    src: url('../../fonts/roboto-regular-webfont.woff');
+    font-family: Roboto;
+    font-weight: 300;
+}
+
+@font-face {
+    src: url('../../fonts/Robotocondensed.woff');
+    font-family: Robotocondensed;
+    font-weight: normal;
+}
+
+page {
+    max-width: 1440px;
+    min-height: 828px;
+    font-family: Roboto, Robotocondensed, Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+    position: relative;
+}

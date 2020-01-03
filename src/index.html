@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+  <html lang="ru">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width">
+      <title>test app</title>
+      <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.chunks.main.css %>">
+  </head>
+  <body>
+    <page>
+        <header class="header">
+            <h1 class="header__title">TEST APP</h1>
+        </header>
+        <div class="photo-grid">
+            <img class="photo-grid__card" src="./images/Rectangle3.png" alt="picture">
+            <img class="photo-grid__card" src="./images/Rectangle3.png" alt="picture">
+            <img class="photo-grid__card" src="./images/Rectangle3.png" alt="picture">
+            <img class="photo-grid__card" src="./images/Rectangle3.png" alt="picture">
+            <img class="photo-grid__card" src="./images/Rectangle3.png" alt="picture">
+            <img class="photo-grid__card" src="./images/Rectangle4.png" alt="picture">
+        </div>
+        <div class="popup-mask">
+        <div class="popup">
+            <img class="popup__photo" src="./images/Rectangle3.png" alt="picture">
+            <div class="popup__comment-block">
+                <div class="popup__comment comment">
+                    <span class="comment__date">18.12.2019</span>
+                    <span class="comment__text">ямируицмолткдмтдлцкмыв</span>
+                </div>
+                <div class="popup__comment comment">
+                    <span class="comment__date">13.09.2019</span>
+                    <span class="comment__text">вымпфкптмдлфуктдпошдц тлпкмгцУКАЕПНРГОШ</span>
+                </div>
+            </div>
+            <form class="popup__form form" name="form">
+                <input class="form__input" name="name" placeholder="Ваше имя">
+                <input class="form__input" name="comment" placeholder="Ваш комментарий">
+                <button class="form__button">Оставить комментарий</button>
+            </form>
+            <div class="popup__close"></div>
+        </div>
+        </div>
+        <footer class="footer">
+            <span class="footer__copyright">&#169; 2018-2019</span>
+        </footer>
+        <script src="<%= htmlWebpackPlugin.files.chunks.main.entry %>"></script>
+    </page>
+  </body>
+  </html>

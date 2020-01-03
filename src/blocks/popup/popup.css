@@ -1,0 +1,38 @@
+@import url('./__close/popup__close.css');
+@import url('./__comment-block/popup__comment-block.css');
+@import url('./__form/popup__form.css');
+@import url('./__photo/popup__photo.css');
+
+.popup {
+    width: 619px;
+    min-height: 425px;
+    background-color: white;
+    position: relative;
+    box-sizing: border-box;
+    padding-top: 30px;
+    padding-left: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 151px;
+}
+
+@media screen and (max-width: 620px) {
+
+    .popup {
+        margin-top: 0;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        padding-top: 0;
+        padding-left: 0;
+        padding-bottom: 48px;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 340px) {
+
+    .popup {
+        width: 100%;
+        margin-top: -73px;
+    }
+}

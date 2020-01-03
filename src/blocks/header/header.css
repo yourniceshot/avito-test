@@ -1,0 +1,8 @@
+@import url('./__title/header__title.css');
+
+.header {
+    width: 100%;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 30px;
+}

@@ -1,0 +1,8 @@
+@import url('./__date/comment__date.css');
+@import url('./__text/comment__text.css');
+
+.comment {
+    width: 184px;
+    min-height: 35px;
+    margin-bottom: 20px;
+}
