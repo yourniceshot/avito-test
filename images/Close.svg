@@ -1,1 +1,1 @@
-<svg width="20" height="19" fill="none" xmlns="http://www.w3.org/2000/svg"><path stroke="#000" d="M1.354.646l18 18m-18.708 0l18-18"/></svg>
+module.exports = __webpack_public_path__ + "6092516ea927337ac66e6f3000a87d4e.svg";
