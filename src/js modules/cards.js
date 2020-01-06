@@ -1,6 +1,6 @@
 import { api } from "./api.js";
 import { CardList } from "./cardlist.js";
-const pictureList = document.querySelector('.photo-grid');
+export const pictureList = document.querySelector('.photo-grid');
 
 export class Card {
     constructor(link){

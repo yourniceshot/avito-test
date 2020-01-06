@@ -16,6 +16,7 @@ class Api {
             return Promise.reject(`Ошибка: ${res.status}`);
         })
     }
+
 }
 
-export const api = new Api('https://boiling-refuge-66454.herokuapp.com/');
+export const api = new Api('https://boiling-refuge-66454.herokuapp.com/'); 
