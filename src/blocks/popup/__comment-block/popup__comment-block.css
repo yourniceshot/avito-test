@@ -1,16 +1,17 @@
 .popup__comment-block {
     width: 184px;
-    min-height: 150px;
+    min-height: 100px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    overflow: scroll;
 }
 
 @media screen and (max-width: 620px) {
 
     .popup__comment-block {
-        margin-bottom: 35px;
         margin-left: -140px;
+        margin-bottom: 35px;
     }
 }
 

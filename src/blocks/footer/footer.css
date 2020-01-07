@@ -5,7 +5,7 @@
     text-align: center;
     padding-bottom: 22px;
     margin: auto;
-    margin-top: 700px;
+    margin-top: 270px;
 }
 
 footer::before {
@@ -14,5 +14,20 @@ footer::before {
     height: 1px;
     display: block;
     background: #cccccc;
+    margin: auto;
     margin-bottom: 22px;
+}
+
+@media screen and (max-width: 765px) {
+
+    footer::before {
+        width: 85%;
+    }
+}
+
+@media screen and (max-width: 478px) {
+
+    .footer {
+        margin-top: 118px;
+    }
 }
