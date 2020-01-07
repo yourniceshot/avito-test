@@ -34,6 +34,7 @@
 
     .popup {
         width: 100%;
-        margin-top: -83px;
+        position: absolute;
+        top: 0;
     }
 }
